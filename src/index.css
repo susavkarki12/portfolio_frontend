@@ -1,0 +1,38 @@
+@font-face {
+  font-family: hacker;
+  src: url(./containers/home/Hacker.ttf);
+}
+
+body{
+  font-size: 40px;
+  font-family: "hacker", sans-serif;
+  background: var(--yellow-theme-background-color);
+  height: 100%;
+}
+
+
+:root{
+  --yellow-theme-background-color:#181818 ;
+  --yellow-theme-main-color: rgba(255,255,255,0.5);
+  --yellow-theme-sub-text-color:#94EBE8;
+  --yellow-theme-nav-background-color: #000000;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 62.5%;
+  height: 100%;
+}
+
+
+#root{
+  height: 100%;
+}
+
+
